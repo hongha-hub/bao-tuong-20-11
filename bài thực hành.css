@@ -56,3 +56,50 @@ footer {
   font-style: italic;
   color: navy;
 }
+.gop-y {
+    margin: 20px;
+    padding: 20px;
+    background: white;/* nền trắng */
+    border-left: 6px solid red;/* viền đỏ nổi bật */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.gop-y h2 {
+    color: navy;/* tiêu đề xanh navy */
+    font-style: italic;
+}
+
+.gop-y label {
+    color: navy; /* chữ xanh navy */
+    font-weight: bold;
+}
+
+.gop-y input, 
+.gop-y textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 2px solid navy; /* viền xanh navy */
+    border-radius: 5px;
+}
+
+.gop-y input:focus,
+.gop-y textarea:focus {
+    outline: none;
+    border-color: red; /* khi bấm vào thì viền đỏ */
+}
+
+.gop-y button {
+    padding: 8px 20px;
+    background: red; /* nút màu đỏ */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.gop-y button:hover {
+    background: navy;/* rê chuột đổi sang xanh navy */
+}
