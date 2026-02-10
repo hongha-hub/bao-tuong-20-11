@@ -43,7 +43,13 @@ img {
   border: 3px solid navy;
   border-radius: 8px;
 }
-
+ video {
+    width: 80%;        /* chiếm 80% chiều ngang khung nội dung */
+    max-width: 700px;  /* không vượt quá 700px để khỏi quá to */
+    height: auto;      /* giữ đúng tỉ lệ */
+    display: block;
+    margin: 20px auto; /* căn giữa và cách trên dưới */
+}
 audio {
   display: block;
   margin: 20px auto;
